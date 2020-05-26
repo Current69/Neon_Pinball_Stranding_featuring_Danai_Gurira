@@ -36,7 +36,7 @@ public class Plunger : MonoBehaviour
         if (ballList.Count > 0)
         {
             ballReady = true;
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space) || (Input.GetKey(KeyCode.Mouse0)))
             {
                 if (power <= maxPower)
                 {
@@ -44,7 +44,7 @@ public class Plunger : MonoBehaviour
                 }
             }
 
-            if (Input.GetKeyUp (KeyCode.Space))
+            if (Input.GetKeyUp(KeyCode.Space) || (Input.GetKeyUp(KeyCode.Mouse0)))
             {
                 foreach(Rigidbody r in ballList)
                 {
