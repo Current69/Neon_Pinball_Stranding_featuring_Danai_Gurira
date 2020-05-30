@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\Flipper_Touch_R.cs" />
      <Compile Include="Assets\Scripts\Plunger.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
+     <Compile Include="Assets\Scripts\SplashScreen\ClickToContinue.cs" />
+     <Compile Include="Assets\Scripts\SplashScreen\GlowPulse.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/DAAANNN/Desktop/Docs/School/CIS235UNB/neon_pinball/Neon_Pinball_Stranding_featuring_Danai_Gurira/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
