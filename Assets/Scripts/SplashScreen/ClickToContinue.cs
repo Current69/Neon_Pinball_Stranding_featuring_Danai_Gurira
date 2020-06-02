@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ClickToContinue : MonoBehaviour
 {
+    public AudioSource startSound;
 
     public string scene;
 
@@ -19,11 +20,9 @@ public class ClickToContinue : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButtonDown(0) && !loadLock) {
-            LoadScene ();
-        }
-
-        if(Input.GetMouseButtonDown(1)) {
-            Application.Quit();
+            startSound.Play ();
+            Invoke("LoadScene", 1);
+            
         }
     }
     
