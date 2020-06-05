@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Death_UI : MonoBehaviour
 {
+    public AudioSource loseSound;
     public GameObject gameOverCanvas;
     public Text deathText;
     public GameObject restartLoseButton;
@@ -14,6 +15,7 @@ public class Death_UI : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ball"))
 		{
+            loseSound.Play ();
             gameOverCanvas.gameObject.SetActive(true);
             deathText.enabled = true;
             restartLoseButton.gameObject.SetActive(true);

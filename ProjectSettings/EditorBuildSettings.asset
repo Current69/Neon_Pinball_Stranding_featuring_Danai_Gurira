@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SplashScene.unity
     guid: 6b87d4675d13ecb48818d216e45d18f2
   - enabled: 1
-    path: Assets/Scenes/NeonPinball.unity
+    path: Assets/Scenes/NeonPinball1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/NeonPinball2.unity
+    guid: 304506967d5a909419125d1dc57e8ebf
   m_configObjects: {}

@@ -45,15 +45,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BumperSound.cs" />
      <Compile Include="Assets\Scripts\Death_UI.cs" />
      <Compile Include="Assets\Scripts\Exit_Game.cs" />
-     <Compile Include="Assets\Scripts\Flipper.cs" />
      <Compile Include="Assets\Scripts\Flipper_Touch_L.cs" />
      <Compile Include="Assets\Scripts\Flipper_Touch_R.cs" />
+     <Compile Include="Assets\Scripts\FlipperSound.cs" />
+     <Compile Include="Assets\Scripts\NextLevel.cs" />
      <Compile Include="Assets\Scripts\Plunger.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\SplashScreen\ClickToContinue.cs" />
      <Compile Include="Assets\Scripts\SplashScreen\GlowPulse.cs" />
+     <Compile Include="Assets\Scripts\ThudSound.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/DAAANNN/Desktop/Docs/School/CIS235UNB/neon_pinball/Neon_Pinball_Stranding_featuring_Danai_Gurira/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSound: {fileID: 1333132914}
-  scene: NeonPinball
+  scene: NeonPinball1
 --- !u!1 &539506853
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,16 +22,19 @@ public class Flipper_Touch_L : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 worldMousePos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        
         JointSpring spring = new JointSpring();
         spring.spring = hitStrength;
         spring.damper = flipperDamper;
 
         if (Input.GetAxis(inputName) == 1)
         {
-            if(Input.mousePosition.x < 353f)
+            Debug.Log ("x is " + worldMousePos.x);
+            // if(Input.mousePosition.x < 353f)
+            if(worldMousePos.x < .6)
             {
                 spring.targetPosition = pressedPosition;
-                Debug.Log (Input.mousePosition.x);
             }
         }
         else
