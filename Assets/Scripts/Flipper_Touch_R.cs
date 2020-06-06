@@ -28,9 +28,17 @@ public class Flipper_Touch_R : MonoBehaviour
         spring.spring = hitStrength;
         spring.damper = flipperDamper;
 
+        if (Input.GetKey(KeyCode.D))
+        {
+            spring.targetPosition = pressedPosition;  
+        }
+        else
+        {
+            spring.targetPosition = restPosition;
+        }
+
         if (Input.GetAxis(inputName) == 1)
         {
-            // if(Input.mousePosition.x > 164f)
             if(worldMousePos.x > .4)
             {
                 spring.targetPosition = pressedPosition;

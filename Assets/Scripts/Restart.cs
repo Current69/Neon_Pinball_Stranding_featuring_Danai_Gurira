@@ -9,5 +9,8 @@ public class Restart : MonoBehaviour
     public void RestartGame() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void WinRestartGame() {
+        SceneManager.LoadScene(1);
+    }
 
 }

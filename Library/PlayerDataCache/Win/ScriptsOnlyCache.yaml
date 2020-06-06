@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - Plunger
     - Restart
     - ThudSound
+    - Win_UI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -65,39 +66,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9674}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 9824}
     - Class: 114
-      Script: {instanceID: 9862}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 9884}
+      Script: {instanceID: 9886}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9914}
     - Class: 114
-      Script: {instanceID: 9986}
+      Script: {instanceID: 9988}
     - Class: 114
-      Script: {instanceID: 10130}
+      Script: {instanceID: 10132}
     - Class: 114
-      Script: {instanceID: 10238}
+      Script: {instanceID: 10158}
     - Class: 114
-      Script: {instanceID: 10462}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10484}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10582}
+      Script: {instanceID: 10488}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 10586}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 29494}
+      Script: {instanceID: 11400}
     - Class: 114
-      Script: {instanceID: 36708}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 62486}
+      Script: {instanceID: 11416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -158,39 +159,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9674}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 9862}
+      Script: {instanceID: 9824}
     - Class: 114
-      Script: {instanceID: 9884}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9886}
     - Class: 114
-      Script: {instanceID: 9986}
+      Script: {instanceID: 9988}
     - Class: 114
-      Script: {instanceID: 10130}
+      Script: {instanceID: 10132}
     - Class: 114
-      Script: {instanceID: 10238}
+      Script: {instanceID: 10158}
     - Class: 114
-      Script: {instanceID: 10462}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10484}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10582}
+      Script: {instanceID: 10488}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 10586}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 29494}
+      Script: {instanceID: 11400}
     - Class: 114
-      Script: {instanceID: 36708}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 62486}
+      Script: {instanceID: 11416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,15 +252,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9674}
     - Class: 114
-      Script: {instanceID: 9862}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 10238}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10414}
+      Script: {instanceID: 10418}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -305,6 +306,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3e229cd820c375bede1dab6e78d030bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Win_UI
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -449,6 +456,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: ac77183f6a449f5cafc5eef0544e3529
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NextLevel
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -697,6 +710,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: cd2d6dcc5edc6bd1c27e896db18fbdec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ThudSound
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -721,6 +740,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: eb05cfeece6ffc04d6b44bebf6a4e550
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BumperSound
+  - hash:
+      serializedVersion: 2
       Hash: 89237094ff202a33fa74a210b1116ec0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -743,28 +768,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: eb05cfeece6ffc04d6b44bebf6a4e550
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BumperSound
-  - hash:
-      serializedVersion: 2
-      Hash: cd2d6dcc5edc6bd1c27e896db18fbdec
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ThudSound
-  - hash:
-      serializedVersion: 2
-      Hash: ac77183f6a449f5cafc5eef0544e3529
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NextLevel
   platform: 5
   scenePathNames:
   - Assets/Scenes/SplashScene.unity
   - Assets/Scenes/NeonPinball1.unity
   - Assets/Scenes/NeonPinball2.unity
-  playerPath: C:/Users/DAAANNN/Desktop/Docs/School/CIS235UNB/neon_pinball/Build/Neon
+  playerPath: C:/Users/DAAANNN/Desktop/Docs/School/CIS235UNB/neon_pinball/Neon_Pinball/Neon
     Pinball.exe
